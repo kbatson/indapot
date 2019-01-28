@@ -23,6 +23,5 @@ build:
   - BUILD_DIR=indapot/
   publish_env:
   - JEKYLL_ENV=production
-  - BUILD_DIR=indapot/
   preview_output_directory: indapot/_site
   output_directory: _site
