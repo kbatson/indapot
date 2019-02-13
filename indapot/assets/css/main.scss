@@ -216,7 +216,7 @@ h1 {
 
 .benefits__great {
     display: grid;
-    grid-template-columns: 70% 1fr;
+    grid-template-columns: 50% 1fr;
     grid-column-gap: 1rem;
 
     background: lighten($tertiary-light, 5%);
@@ -260,7 +260,7 @@ h1 {
     }
 
     &:nth-child(odd){
-        grid-template-columns: 1fr 70%;
+        grid-template-columns: 1fr 50%;
         .benefit__content {
             grid-column: 2;
             grid-row: 2;
