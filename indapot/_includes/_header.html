@@ -5,18 +5,21 @@
     <title>Indapot</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
 </head>
-<body>
+<body{% if page.url == "/" %} class="home"{% endif %}>
 <header>
     <nav class="mainNav">
         <ul class="mainNav__list">
+            {% if page.url != "/" %}<li class="mainNav__listItem">
+                <a href="/">Home</a>
+            </li>{% endif %}
             <li class="mainNav__listItem">
                 <a href="#">Benefits</a>
             </li>
             <li class="mainNav__listItem">
-                <a href="#">Kickstarter</a>
+                <a href="faq.html">FAQ</a>
             </li>
             <li class="mainNav__listItem">
-                <a href="faq.html">FAQ</a>
+                <a href="#">Kickstarter</a>
             </li>
         </ul>
     </nav>
