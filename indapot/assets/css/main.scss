@@ -241,8 +241,6 @@ h1 {
   grid-template-columns: 60% 1fr 1rem;
   grid-column-gap: 1rem;
 
-  border-bottom: 2px solid transparent;
-
   .benefit__title, .benefit__content {
     grid-column: 2;
   }
@@ -250,8 +248,11 @@ h1 {
   .benefit__figure {
     grid-column: 1;
     grid-row: 1 / span 2;
-    min-height: 15rem;
-    background: gray;
+
+    img {
+      width: 100%;
+      object-fit: scale-down;
+    }
   }
 
   &:nth-child(even){
