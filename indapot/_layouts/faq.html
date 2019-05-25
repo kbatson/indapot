@@ -1,6 +1,14 @@
 {% include _header.html %}
 </header>
-<main>
-    <h1>FAQ</h1>
-</main>
+<main class="faq">
+  <article>
+    <h1>{{ page.title }}</h1>
+    <dl>
+      {% for question in page.questions %}
+        <dt>{{ question.question }}</dt>
+        <dd>{{ question.answer }}</dd>
+      {% endfor %}
+    </dl>
+  </main>
+</article>
 {% include _footer.html %}

@@ -51,6 +51,8 @@ header a {
 
 main {
   margin-top: $header--height;
+  height: auto;
+  overflow: hidden;
 }
 
 main section {
@@ -324,6 +326,31 @@ footer {
 .footer__content {
   grid-column: 2;
   margin: 2rem 0;
+}
+
+dl {
+  margin: 0;
+
+  dt {
+    margin: 0;
+
+    font-size: 1.5rem;
+    font-family: 'Signika', sans-serif;
+
+    color: $primary-dark;
+  }
+
+  dd {
+    margin: 0 0 3rem;
+  }
+}
+
+main.faq {
+  article {
+    max-width: 60em;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
 }
 
 @media(min-width: 40em){
