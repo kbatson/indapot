@@ -2,7 +2,7 @@
 layout: faq
 title: Frequently Asked Questions
 questions:
-- question: ''
+- question: asdfasdf
   answer: ''
 - question: Why platinum-cured silicone?
   answer: Indapot plant containers are 100% platinum-cured silicone, the highest grade

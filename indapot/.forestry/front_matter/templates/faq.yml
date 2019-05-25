@@ -28,3 +28,5 @@ fields:
     label: answer
     config:
       required: true
+pages:
+- indapot/faq.md
