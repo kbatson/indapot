@@ -1,0 +1,20 @@
+---
+label: FAQ
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: field_group_list
+  name: questions
+  label: questions
+  fields:
+  - type: text
+    name: question
+    label: question
+  - type: textarea
+    name: answer
+    label: answer
