@@ -5,9 +5,15 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
+  default: faq
+  config:
+    required: false
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - type: field_group_list
   name: questions
   label: questions
@@ -15,6 +21,10 @@ fields:
   - type: text
     name: question
     label: question
+    config:
+      required: true
   - type: textarea
     name: answer
     label: answer
+    config:
+      required: true
