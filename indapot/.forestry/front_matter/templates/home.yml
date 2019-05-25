@@ -5,38 +5,56 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Title
+  hidden: true
 - type: text
   name: intro_title
-  label: intro_title
+  label: Intro Title
+  config:
+    required: true
 - type: textarea
   name: intro
-  label: intro
+  label: Introductory Text
+  config:
+    required: true
 - type: field_group_list
   name: benefits_better
-  label: benefits_better
+  label: What makes Indapot better?
   fields:
   - type: text
     name: title
-    label: title
+    label: Name
+    config:
+      required: true
   - type: textarea
     name: content
-    label: content
+    label: Description
+    config:
+      required: true
   - type: file
     name: image
-    label: image
+    label: Image URL
+  config:
+    labelField: title
 - type: field_group_list
   name: benefits_great
-  label: benefits_great
+  label: What makes Indapot great?
   fields:
   - type: text
     name: title
-    label: title
+    label: Name
+    config:
+      required: true
   - type: textarea
     name: content
-    label: content
+    label: Description
+    config:
+      required: true
   - type: text
     name: image
-    label: image
+    label: Image URL
+  config:
+    labelField: title
