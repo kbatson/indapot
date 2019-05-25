@@ -53,7 +53,7 @@ fields:
     label: Description
     config:
       required: true
-  - type: text
+  - type: file
     name: image
     label: Image URL
   config:
