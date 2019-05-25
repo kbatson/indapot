@@ -13,11 +13,12 @@ $tertiary-light: #EDF8CE; //Very light green
 $header--height: 6rem;
 $play-height: 5rem;
 
-$centered-columns: minmax(1rem, 1fr) minmax(10rem, 60rem) minmax(1rem, 1fr);
+$centered-columns: minmax(10vw, 1fr) minmax(10rem, 60rem) minmax(10vw, 1fr);
 $header-columns: 8rem 1fr 1fr;
 
 body {
   font-family: 'Noto Serif', serif;
+  font-size: 1.2rem;
   margin: 0;
   padding: 0;
 
@@ -53,6 +54,8 @@ main {
   margin-top: $header--height;
   height: auto;
   overflow: hidden;
+
+  background: $tertiary-light;
 }
 
 main section {
@@ -63,12 +66,14 @@ main section {
 section header, section main {
   grid-column: 2;
   margin: 0;
+  height: auto;
   border: 0;
   padding: 0;
+  background: transparent;
+  overflow: hidden;
 }
 
 h1, h2 {
-  font-family: 'Signika', sans-serif;
   color: $primary-dark;
 }
 
@@ -76,6 +81,22 @@ h1 {
   font-size: 2rem;
   text-align: center;
   margin-top: 3rem;
+
+  font-family: 'Noto Serif', serif;
+
+  strong {
+    display: inline-block;
+    font-family: 'Signika', sans-serif;
+    font-size: 1.7em;
+    color: $secondary-dark;
+
+    transform: rotate(-2deg);
+  }
+}
+
+h2 {
+  font-family: 'Signika', sans-serif;
+  font-size: 2rem;
 }
 
 .mainNav {
@@ -160,9 +181,10 @@ h1 {
     color: $tertiary-light;
     background-color: $primary-dark;
 
-    height: 2rem;
+    height: 4rem;
     width: 100%;
     padding: 1rem 0;
+    box-sizing: border-box;
 
     font-size: 1.2rem;
     font-weight: bold;
@@ -259,7 +281,7 @@ h1 {
   color: $tertiary-light;
 
   height: 3rem;
-  padding: .5rem;
+  padding: .5rem 1rem;
   border-radius: .5rem;
 
   text-decoration: none;
@@ -277,31 +299,72 @@ h1 {
   }
 }
 
+.intro__content {
+  font-family: 'Signika', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
 .benefits {
   display: block;
+  padding-bottom: 4rem;
 }
 
 .benefits__benefit {
   display: grid;
-  grid-template-columns: 60% 1fr 1rem;
-  grid-column-gap: 1rem;
+  grid-template-columns: 40% 1fr 10vw;
+  grid-template-rows: minmax(6rem, auto) 1fr;
+  grid-column-gap: 2rem;
 
-  .benefit__title, .benefit__content {
+  width: 110%;
+  margin-left: -5%;
+  margin-top: -6rem;
+  padding-bottom: 6rem;
+
+  background: $secondary-light;
+
+  transform: rotate(-1deg);
+
+  .benefit__title {
+    grid-row: 1;
     grid-column: 2;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .benefit__content {
+    grid-row: 2;
+    grid-column: 2;
+    padding-bottom: 4rem;
   }
 
   .benefit__figure {
     grid-column: 1;
     grid-row: 1 / span 2;
+    overflow: hidden;
 
     img {
+      height: 100%;
       width: 100%;
-      object-fit: scale-down;
+      object-fit: cover;
+
+      transform: rotate(1deg) scale(1.1);
     }
   }
 
+  &:first-child {
+    margin-top: 3rem;
+  }
+
   &:nth-child(even){
-    grid-template-columns: 1rem 1fr 60%;
+    transform: rotate(2deg);
+    grid-template-columns: 10vw 1fr 40%;
+    background-color: $primary-dark;
+    color: $tertiary-light;
+
+    .benefit__title {
+      color: $tertiary-light;
+    }
 
     .benefit__title, .benefit__content {
       grid-column: 2;
@@ -309,6 +372,10 @@ h1 {
 
     .benefit__figure {
       grid-column: 3;
+
+      img {
+        transform: rotate(-2deg) scale(1.1);
+      }
     }
   }
 }
@@ -382,7 +449,7 @@ main.faq {
     a {
       height: $header--height;
       line-height: 9rem;
-      padding: 0;
+      padding: 0 1rem;
 
       background-color: $secondary-dark;
 
@@ -396,5 +463,13 @@ main.faq {
   .main__title {
     grid-column: 1;
     margin: 0;
+  }
+
+  .benefits__benefit {
+    // grid-template-columns: 40% 1fr 10vw;
+
+    // &:nth-child(even){
+    //   grid-template-columns: 10vw 1fr 40%;
+    // }
   }
 }
