@@ -78,9 +78,11 @@ h1 {
 
 .mainNav {
   grid-row: 1;
-  grid-column: 2;
+  grid-column: 1 / span 3;
   display: grid;
-  grid-template-columns: $header-columns;
+  grid-template-columns: 3rem 1fr;
+  grid-template-rows: $header--height auto;
+  justify-items: center;
 
   background: $secondary-dark;
 
@@ -88,24 +90,60 @@ h1 {
 }
 
 .main__title {
-  grid-column: 1;
+  grid-row: 1;
+  grid-column: 2;
   background: url(../images/indapot-logo.svg) no-repeat;
   text-indent: -999rem;
   height: $header--height;
   width: 8rem;
-  margin: 0;
+  margin: 0 0 0 -2rem;
 }
 
+.list-toggle {
+  grid-column: 1;
+  grid-row: 1;
+
+  text-indent: -999rem;
+
+  position: relative;
+
+  .bar {
+    display: block;
+    height: 0;
+    width: 2rem;
+    border: 2px solid #ffffff;
+    border-radius: .2rem;
+
+    position: absolute;
+    top: 50%;
+    left: .5rem;
+
+    &:first-child {
+      margin-top: -.6rem;
+    }
+
+    &:last-child {
+      margin-top: .6rem;
+    }
+  }
+}
 
 .mainNav__list {
-  grid-column: 3;
+  grid-column: 1 / span 2;
+  grid-row: 2;
   list-style: none;
 
   padding: 0;
   margin: 0;
-  height: $header--height;
+  height: auto;
+  width: 100%;
   
   display: flex;
+  flex-direction: column;
+
+  &.is-hidden {
+    display: none;
+  }
 }
 
 .mainNav__listItem {
@@ -118,19 +156,20 @@ h1 {
     display: inline-block;
 
     color: $tertiary-light;
+    background-color: $primary-dark;
 
-    height: $header--height;
+    height: 2rem;
     width: 100%;
+    padding: 1rem 0;
 
     font-size: 1.2rem;
     font-weight: bold;
-    line-height: 9rem;
+    line-height: 2.5rem;
     text-decoration: none;
     text-align: center;
 
     &:hover {
-      background-color: $primary-dark;
-      line-height: 8rem;
+      background-color: $secondary-dark;
     }
   }
 }
@@ -197,6 +236,9 @@ h1 {
   background: $tertiary-dark;
   color: $secondary-light;
 
+  display: flex;
+  justify-content: center;
+
   main {
     display: flex;
     justify-content: space-between;
@@ -223,6 +265,7 @@ h1 {
   font-size: 1.5rem;
   line-height: 3rem;
   font-weight: bold;
+  white-space: nowrap;
 
   transition: all .3s ease-out;
 
@@ -281,4 +324,50 @@ footer {
 .footer__content {
   grid-column: 2;
   margin: 2rem 0;
+}
+
+@media(min-width: 40em){
+  .list-toggle {
+    display: none;
+  }
+
+  .mainNav {
+    grid-column: 2;
+    justify-items: unset;
+
+    grid-template-columns: $header-columns;
+  }
+
+  .mainNav__list {
+    display: flex;
+    grid-column: 3;
+    grid-row: 1;
+    flex-direction: row;
+    height: $header--height;
+    width: auto;
+
+    &.is-hidden {
+      display: flex;
+    }
+  }
+
+  .mainNav__listItem {
+    a {
+      height: $header--height;
+      line-height: 9rem;
+      padding: 0;
+
+      background-color: $secondary-dark;
+
+      &:hover {
+        line-height: 8rem;
+        background-color: $primary-dark;
+      }
+    }
+  }
+
+  .main__title {
+    grid-column: 1;
+    margin: 0;
+  }
 }
