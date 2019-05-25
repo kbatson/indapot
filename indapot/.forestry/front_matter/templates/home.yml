@@ -1,0 +1,42 @@
+---
+label: Home
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: intro_title
+  label: intro_title
+- type: textarea
+  name: intro
+  label: intro
+- type: field_group_list
+  name: benefits_better
+  label: benefits_better
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: content
+    label: content
+  - type: file
+    name: image
+    label: image
+- type: field_group_list
+  name: benefits_great
+  label: benefits_great
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: content
+    label: content
+  - type: text
+    name: image
+    label: image
