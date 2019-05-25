@@ -58,3 +58,5 @@ fields:
     label: Image URL
   config:
     labelField: title
+pages:
+- indapot/index.md
