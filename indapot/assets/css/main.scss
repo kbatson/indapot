@@ -108,12 +108,14 @@ h1 {
     display: block;
     height: .5rem;
     width: 50%;
+    max-width: 20rem;
+    margin-left: -10rem;
 
     background: $secondary-light;
 
     position: absolute;
     bottom: 0;
-    left: 20%;
+    left: 50%;
     z-index: -2;
     transform: rotateY(-30deg) rotate(0deg) skewX(30deg);
   }
