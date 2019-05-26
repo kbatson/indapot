@@ -19,14 +19,14 @@
         <span class="bar"></span>
       </a>
       <ul class="mainNav__list is-hidden">
-        {% if page.url != "/" %}<li class="mainNav__listItem">
-          <a href="/">Home</a>
-        </li>{% endif %}
         <li class="mainNav__listItem">
-          <a href="/#benefits">Benefits</a>
+          <a href="/"{% if page.url == "/" %} class="active"{% endif %}>Home</a>
         </li>
+        <!-- <li class="mainNav__listItem">
+          <a href="/#benefits">Benefits</a>
+        </li> -->
         <li class="mainNav__listItem">
-          <a href="faq.html">FAQ</a>
+          <a href="faq.html"{% if page.url == "/faq.html" %} class="active"{% endif %}>FAQ</a>
         </li>
         <li class="mainNav__listItem">
           <a href="#">Kickstarter</a>
