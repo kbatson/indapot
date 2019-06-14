@@ -97,7 +97,7 @@ benefits_great:
   content: At Indapot, we believe in giving back to promote gardening for kids. We
     will give 10% of our profits every year to Kids Gardening to help support their
     mission of expanding gardening programs in schools. Being a conscientious company
-    iss part of our mission from the start.
+    is part of our mission from the start.
   image: ''
 
 ---
