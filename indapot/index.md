@@ -15,72 +15,89 @@ intro: "<p>Horticulture hasn’t changed much in, oh, a couple of millenia. Neit
   puns are going to come hot and fast.)</p>"
 benefits_better:
 - title: Unbreakable
-  content: No more shattered dreams and tear-soaked soil. Under normal (and most abnormal)
-    use, these suckers will not crack, tear, warp, or fail.
+  content: Because Indapots are made from silicone, this makes them virtually unbreakable.
+    Crush them, drop them, run them over with a car or drop them off a roof and these
+    pots will bounce right back. These pots can take about anything and look great
+    doing it. These pots will never fail you and you will own them for a lifetime.
   image: assets/images/photo-3.jpg
 - title: Lightweight
-  content: You’ll be happy to lug your plant buddies around. Seriously, you could
-    comfortably wear an Indapot as a helmet. Devo, call us!
+  content: When compared to clay and terra-cotta pots, Indapots are about 60% lighter.
+    Expect less strain on your back when moving plants around.
   image: assets/images/photo-4.jpg
 - title: Pliable
-  content: Cram this thing wherever. Yeah, that’s kind of a dare. It’ll bounce right
-    back to the same shape you first fell in love with. Pot-shaped.
+  content: The fact that you can flex Indapots means you will be able to remove plants
+    from them with ease. Being pliable is also a reason that these pots will never
+    break on you.
   image: assets/images/photo-6.jpg
 - title: Rigid
-  content: Once you fill it, you won’t spill it. Hey, that rhymed! We’ve calibrated
-    the tensile strength of our Indapots to perfection, because we like doing that
-    sort of thing.
+  content: Even though these pots can be flexed, they have been designed to stay as
+    rigid as you need to stand up to the weight of gardening. We used a silicone that
+    will both flex and hold up to weight.
   image: assets/images/photo-7.jpg
 - title: Resilient
-  content: Never met a temperature it didn’t like. Okay, it didn’t like -150 or 600
-    degrees Fahrenheit. Still! Also, silicone is nonporous, so it freezes and thaws
-    like a champ — no fracture or failure. This thing can even take on acids and radiation.
-    (What are you, a mad scientist or something?)
+  content: Indapots have taken everything we have thrown at them. We have thrown them
+    off roofs, set off explosions inside of them, and even released children on them.
+    We have looked for any way we can to damage them. The resilience of these pots
+    is just one of the reason you will own them for a lifetime.
   image: ''
-- title: Colorfast
-  content: Indapots repel water and sunlight like superheroes deflect bullets. They
-    do not, however, deflect bullets. Our lawyers forced us to say that. Anyway, your
-    Indapots won’t fade or break down because of weather or UV exposure.
+- title: Colorfast/UV Stable
+  content: The fact that Indapots are made from silicone means they’re UV stable.
+    You don’t have to worry about fading, no matter what colors you choose. Your plants
+    enjoy the sun and now your pots can too.
   image: ''
 - title: Food grade and hypoallergenic
-  content: Not sure why you’d want to eat off of it, but you could eat off of it.
-    Seriously, fungus and bacteria are as bad for plants as they are for humans —
-    good thing they hate silicone. They’re, like, the only living things that hate
-    silicone.
+  content: Unlike those plastic containers, Indapot isn’t made from petroleum products.
+    These silicone pots can withstand heating and freezing without leaching or off-gassing.
+    So you won’t have to worry about any BPA’s or hazardous chemicals contaminating
+    your food. You can rest assured the food you have grown is safe and healthy for
+    your whole family.
   image: ''
 - title: Dishwasher safe
-  content: Efflorescence is a thing of the past. No, we did not make that word up
-    — it means “salt build-up.” Forget chemical build-up, too. Really, with Indapot,
-    the only thing you’ll be building up is confidence in your green thumb.
+  content: At the end of a season or before your next growing season begins, you can
+    run our pots through the dishwasher.  Now you can be sure your pots are nice and
+    clean before being potted again. You can do this season after season with no damage
+    to your pots.
   image: ''
 - title: Recyclable
-  content: This Indapot will be with you for the long haul. But if the prospect of
-    an eternity spent with a planter freaks you out, cut it up into pot holders, or
-    send it to the farm (i.e. a silicone recycling facility).
+  content: 'Like most all silicone products, Indapots are recyclable. With their extremely
+    long life, you will probably never get rid of these pots. But if you do for some
+    reason, they can be recycled. If your local facility doesn’t recycle silicone,
+    then you can always send them back to us and we will either recycle them, or donate
+    them to schools for future use. '
   image: ''
 - title: Not plastic and not clay
-  content: In the end, it’s as simple as that, right? Plastic is gross — BPA, PVC,
-    phthalates — and clay is crap. Sorry, we’re just really worked up about junky
-    pottery. Not your pottery artwork, though. It’s great, honest.
+  content: Indapots cover the needs of gardeners in a multitude of ways. They are
+    60% lighter than clay pots. So there is no need to hurt your back when moving
+    them around. But they still have the rigidity needed to hold shape when moving
+    them so not to damage your roots. But they will also flex when forced so transplanting
+    is a cinch. Unlike clay pots these pots will never fade.
   image: ''
 benefits_great:
 - title: A variety of sizes and shapes
-  content: Grow that cute little succulent or your next tomato plant monstrosity.
-    We’ve got a size for every plant project.
+  content: Indapot offers a number of sizes and shapes of pots to fill all your gardening
+    needs. Take a look at our catalog of pots and saucers and find the ones that are
+    right for you.
   image: ''
 - title: Multiple colors
-  content: Match your outdoor décor or get really weird and go clear. (Actually, there
-    are plenty of practical benefits to clear planters, but it’s still kind of strange.)
+  content: Indapots are offered in multiple colors to fit your garden or house color
+    pallet. If you are ordering a large enough amount we can even make them in custom
+    colors for you.
   image: ''
 - title: Imprinted soil guide
-  content: Throw together your own ideal potting mix, you nerd — the ratios are right
-    inside your Indapot. Is that level of DIY just TMI for you? Don’t worry, the store-bought
-    stuff won’t hurt its feelings.
+  content: As a teaching tool we have designed our pots to make it easy to get the
+    correct soil for all your needs. Just follow the guide on the inside of the pots
+    to get your mix just right.
   image: ''
-- title: Sales support gardening in schools
-  content: Children already get their hands dirty. Indapots gives growing growers
-    the a good reason to. After all, they’ll be the gardeners of the future — a future
-    where they’ll fly to their moon gardens on rocket ships piloted by robots.
+- title: Extreme working temperature
+  content: 'With a working temperature of -80 – 450 degrees, Indapots will handle
+    even the most extreme environments. If you live in a hot desert, no problem. If
+    you’re living in the artic, they can handle that too. '
+  image: ''
+- title: Sales support gardening in schools / Donations to kids gardening
+  content: At Indapot, we believe in giving back to promote gardening for kids. We
+    will give 10% of our profits every year to Kids Gardening to help support their
+    mission of expanding gardening programs in schools. Being a conscientious company
+    iss part of our mission from the start.
   image: ''
 
 ---
