@@ -39,45 +39,45 @@ benefits_better:
     off roofs, set off explosions inside of them, and even released children on them.
     We have looked for any way we can to damage them. The resilience of these pots
     is just one of the reason you will own them for a lifetime.
-  image: ''
+  image: "/photos/5.jpg"
 - title: Colorfast/UV Stable
   content: The fact that Indapots are made from silicone means they’re UV stable.
     You don’t have to worry about fading, no matter what colors you choose. Your plants
     enjoy the sun and now your pots can too.
-  image: ''
+  image: "/photos/17.jpg"
 - title: Food grade and hypoallergenic
   content: Unlike those plastic containers, Indapot isn’t made from petroleum products.
     These silicone pots can withstand heating and freezing without leaching or off-gassing.
     So you won’t have to worry about any BPA’s or hazardous chemicals contaminating
     your food. You can rest assured the food you have grown is safe and healthy for
     your whole family.
-  image: ''
+  image: "/photos/8.jpg"
 - title: Dishwasher safe
   content: At the end of a season or before your next growing season begins, you can
     run our pots through the dishwasher.  Now you can be sure your pots are nice and
     clean before being potted again. You can do this season after season with no damage
     to your pots.
-  image: ''
+  image: "/photos/6.jpg"
 - title: Recyclable
   content: 'Like most all silicone products, Indapots are recyclable. With their extremely
     long life, you will probably never get rid of these pots. But if you do for some
     reason, they can be recycled. If your local facility doesn’t recycle silicone,
     then you can always send them back to us and we will either recycle them, or donate
     them to schools for future use. '
-  image: ''
+  image: "/photos/15.jpg"
 - title: Not plastic and not clay
   content: Indapots cover the needs of gardeners in a multitude of ways. They are
     60% lighter than clay pots. So there is no need to hurt your back when moving
     them around. But they still have the rigidity needed to hold shape when moving
     them so not to damage your roots. But they will also flex when forced so transplanting
     is a cinch. Unlike clay pots these pots will never fade.
-  image: ''
+  image: "/photos/1-1.jpg"
 benefits_great:
 - title: A variety of sizes and shapes
   content: Indapot offers a number of sizes and shapes of pots to fill all your gardening
     needs. Take a look at our catalog of pots and saucers and find the ones that are
     right for you.
-  image: ''
+  image: "/photos/25.jpg"
 - title: Multiple colors
   content: Indapots are offered in multiple colors to fit your garden or house color
     pallet. If you are ordering a large enough amount we can even make them in custom
@@ -87,7 +87,7 @@ benefits_great:
   content: As a teaching tool we have designed our pots to make it easy to get the
     correct soil for all your needs. Just follow the guide on the inside of the pots
     to get your mix just right.
-  image: ''
+  image: "/photos/23.jpg"
 - title: Extreme working temperature
   content: 'With a working temperature of -80 – 450 degrees, Indapots will handle
     even the most extreme environments. If you live in a hot desert, no problem. If
