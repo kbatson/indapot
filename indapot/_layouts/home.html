@@ -1,9 +1,9 @@
 {% include _header.html %}
 <main>
   <section class="hero">
-      <div id="video">
-      </div>
-      <a href="#" id="video_play">Play</a>
+    {% if page.intro_video %}
+      <a href="{{ page.intro_video }}" data-fancybox="videos">Play</a>
+    {% endif %}
     </div>
   </section>
   <section class="kickstarter">
@@ -31,7 +31,9 @@
           <p>{{ benefit.content }}</p>
         </div>
         <figure class="benefit__figure">
+        {% if benefit.video %}<a href="{{ benefit.video }}" data-fancybox="videos">{% endif %}
           <img src="{{ benefit.image }}">
+        {% if benefit.video %}</a>{% endif %}
         </figure>
       </article>
       {% endfor %}
