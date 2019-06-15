@@ -10,6 +10,12 @@ fields:
   name: title
   label: Title
   hidden: true
+- name: intro_video
+  type: text
+  config:
+    required: false
+  label: Hero Video
+  description: Main video at the top of the page.
 - type: text
   name: intro_title
   label: Intro Title
