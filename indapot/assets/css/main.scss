@@ -582,16 +582,27 @@ main.internal {
     // }
   }
 
-  .faq article dl {
+  .faq .faqs {
     column-count: 2;
     column-gap: 2rem;
 
-    dt, dd {
+    dl {
       break-inside: avoid;
+    }
+
+    dt, dd {
+      display: inline-block;
+      break-inside: avoid;
+    }
+
+    dt {
+      break-after: avoid;
+      -webkit-columnb-break-after: avoid;
     }
 
     dd {
       break-before: avoid;
+      -webkit-columnb-break-before: avoid;
     }
   }
 }

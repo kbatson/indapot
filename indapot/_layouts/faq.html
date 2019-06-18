@@ -3,12 +3,21 @@
 <main class="faq">
   <article>
     <h1>Frequently Asked <strong>Questions</strong><span></span></h1>
-    <dl>
-      {% for question in page.questions %}
-        <dt>{{ question.question }}</dt>
-        <dd>{{ question.answer }}</dd>
-      {% endfor %}
-    </dl>
+    <div class="faqs">
+      <dl>
+        {% for question in page.questions %}
+        {% if forloop.first == true %}
+        {% assign breakpoint = forloop.length | divided_by: 2 %}
+        {% endif %}
+          <dt>{{ question.question }}</dt>
+          <dd>{{ question.answer }}</dd>
+          {% if forloop.index == breakpoint %}
+          </dl>
+          <dl>
+          {% endif %}
+        {% endfor %}
+      </dl>
+    </div>
   </main>
 </article>
 {% include _footer.html %}
