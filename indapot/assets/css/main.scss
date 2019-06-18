@@ -589,5 +589,9 @@ main.internal {
     dt, dd {
       break-inside: avoid;
     }
+
+    dd {
+      break-before: avoid;
+    }
   }
 }
