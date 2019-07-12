@@ -1,6 +1,6 @@
 set -e
 
-DEPLOY_REPO="https://${MY_WEBSITE}@github.com/alice/alice.github.io.git"
+DEPLOY_REPO="https://git@github.com/kbatson/indapot.github.io.git"
 
 function main {
   clean
