@@ -606,3 +606,32 @@ main.internal {
     }
   }
 }
+
+input {
+  height: 2rem;
+
+  font-family: 'Noto Serif', serif;
+  font-size: 1rem;
+  line-height: 2rem;
+
+  border: 1px solid $secondary-dark;
+  border-radius: .25rem;
+}
+
+/** MailChimp **/
+#mc_embed_signup {
+  width: 30rem;
+  margin: 0 auto;
+
+  #mc-embedded-subscribe {
+    border: none;
+    background: $primary-dark;
+    color: $tertiary-light;
+
+    font-family: 'Signika', sans-serif;
+    font-weight: bold;
+
+    height: 2rem;
+    border-radius: .5rem;
+  }
+}
