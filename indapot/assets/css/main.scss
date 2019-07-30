@@ -383,14 +383,15 @@ h2 {
 
 .benefits__benefit {
   display: grid;
-  grid-template-columns: 40% 1fr 10vw;
-  grid-template-rows: minmax(6rem, auto) 1fr;
+  grid-template-rows: minmax(6rem, auto) auto auto;
   grid-column-gap: 2rem;
 
   width: 110%;
   margin-left: -5%;
   margin-top: -6rem;
-  padding-bottom: 6rem;
+  padding: 1rem 4rem 6rem 4rem;
+
+  box-sizing: border-box;
 
   background: $secondary-light;
 
@@ -398,7 +399,6 @@ h2 {
 
   .benefit__title {
     grid-row: 1;
-    grid-column: 2;
     font-size: 2.5rem;
     margin-bottom: 1rem;
 
@@ -406,16 +406,14 @@ h2 {
   }
 
   .benefit__content {
-    grid-row: 2;
-    grid-column: 2;
+    grid-row: 3;
     padding-bottom: 4rem;
 
     transform: rotate(1deg);
   }
 
   .benefit__figure {
-    grid-column: 1;
-    grid-row: 1 / span 2;
+    grid-row: 2;
     overflow: hidden;
 
     img {
@@ -433,7 +431,6 @@ h2 {
 
   &:nth-child(even){
     transform: rotate(2deg);
-    grid-template-columns: 10vw 1fr 40%;
     background-color: $primary-dark;
     color: $tertiary-light;
 
@@ -442,14 +439,10 @@ h2 {
     }
 
     .benefit__title, .benefit__content {
-      grid-column: 2;
-
       transform: rotate(-2deg);
     }
 
     .benefit__figure {
-      grid-column: 3;
-
       img {
         transform: rotate(-2deg) scale(1.1);
       }
@@ -476,6 +469,7 @@ footer {
   margin: 2rem 0;
 
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
 
   .footer__menu {
@@ -483,6 +477,7 @@ footer {
     ul {
       list-style: none;
       display: flex;
+      flex-direction: column;
 
       li {
         margin: 0 1rem;
@@ -575,11 +570,85 @@ main.internal {
   }
 
   .benefits__benefit {
-    // grid-template-columns: 40% 1fr 10vw;
+    display: grid;
+    grid-template-columns: 40% 1fr 10vw;
+    grid-template-rows: minmax(6rem, auto) 1fr;
+    grid-column-gap: 2rem;
 
-    // &:nth-child(even){
-    //   grid-template-columns: 10vw 1fr 40%;
-    // }
+    width: 110%;
+    margin-left: -5%;
+    margin-top: -6rem;
+    padding-bottom: 6rem;
+
+    background: $secondary-light;
+
+    transform: rotate(-1deg);
+
+    .benefit__title {
+      grid-row: 1;
+      grid-column: 2;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+
+      transform: rotate(1deg);
+    }
+
+    .benefit__content {
+      grid-row: 2;
+      grid-column: 2;
+      padding-bottom: 4rem;
+
+      transform: rotate(1deg);
+    }
+
+    .benefit__figure {
+      grid-column: 1;
+      grid-row: 1 / span 2;
+      overflow: hidden;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+
+        transform: rotate(1deg) scale(1.1);
+      }
+    }
+
+    &:first-child {
+      margin-top: 3rem;
+    }
+
+    &:nth-child(even){
+      transform: rotate(2deg);
+      grid-template-columns: 10vw 1fr 40%;
+      background-color: $primary-dark;
+      color: $tertiary-light;
+
+      .benefit__title {
+        color: $tertiary-light;
+      }
+
+      .benefit__title, .benefit__content {
+        grid-column: 2;
+
+        transform: rotate(-2deg);
+      }
+
+      .benefit__figure {
+        grid-column: 3;
+
+        img {
+          transform: rotate(-2deg) scale(1.1);
+        }
+      }
+    }
+  }
+
+  .footer__content {
+    .footer__menu {
+      flex-direction: row;
+    }
   }
 
   .faq .faqs {
@@ -620,8 +689,13 @@ input {
 
 /** MailChimp **/
 #mc_embed_signup {
-  width: 30rem;
+  max-width: 30rem;
   margin: 0 auto;
+  padding: 0 1rem;
+
+  input {
+    margin: .5rem 0;
+  }
 
   #mc-embedded-subscribe {
     border: none;
@@ -633,5 +707,10 @@ input {
 
     height: 2rem;
     border-radius: .5rem;
+  }
+
+  .mc-field-group {
+    display: flex;
+    flex-direction: column;
   }
 }
