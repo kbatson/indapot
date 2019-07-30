@@ -32,6 +32,10 @@ figure {
 
 a {
   color: $primary-dark;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 header.header {
@@ -268,6 +272,7 @@ h2 {
   width: 100%;
   height: 100%;
   position: relative;
+  z-index: 0;
 
   cursor: pointer;
 
@@ -370,12 +375,6 @@ h2 {
   }
 }
 
-.intro__content {
-  font-family: 'Signika', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 100;
-}
-
 .benefits {
   display: block;
   padding-bottom: 4rem;
@@ -468,20 +467,34 @@ footer {
   grid-column: 2;
   margin: 2rem 0;
 
+  text-align: center;
+
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 
-  .footer__menu {
+  .footer__menu, .contact__menu {
 
     ul {
       list-style: none;
       display: flex;
       flex-direction: column;
+      padding: 0;
 
       li {
-        margin: 0 1rem;
+        margin: 0;
       }
+    }
+  }
+
+  .contact__menu {
+    font-size: 2rem;
+    ul {
+      flex-direction: row;
+      justify-content: center;
+    }
+    a {
+      text-decoration: none;
     }
   }
 }
@@ -646,8 +659,9 @@ main.internal {
   }
 
   .footer__content {
-    .footer__menu {
+    .footer__menu ul {
       flex-direction: row;
+      justify-content: space-between;
     }
   }
 
