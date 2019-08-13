@@ -1,0 +1,2 @@
+cd indapot
+jekyll build

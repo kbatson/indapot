@@ -8,7 +8,7 @@ install:
   - bundle install
 
 script:
-  - "./script/travis.sh"
+  - "./script/build.sh"
 
 branches:
   only:
