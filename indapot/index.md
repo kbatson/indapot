@@ -13,7 +13,7 @@ intro: "<p>Horticulture hasn’t changed much in, oh, a couple of millenia. Neit
   the Delaware. (How cute would that be, by the way? Little George Washington-looking
   planter.)</p> <p>Okay, on to our Declaration of Indo-pendence! (Be prepared, the
   puns are going to come hot and fast.)</p>"
-intro_video: https://youtu.be/lOfZLb33uCg
+intro_video: https://youtu.be/pWB37LMLo20
 benefits_better:
 - title: Unbreakable
   content: Because Indapots are made from silicone, this makes them virtually unbreakable.
@@ -21,7 +21,6 @@ benefits_better:
     pots will bounce right back. These pots can take about anything and look great
     doing it. These pots will never fail you and you will own them for a lifetime.
   image: assets/images/photo-3.jpg
-  video: https://youtu.be/N9qYF9DZPdw
 - title: Lightweight
   content: When compared to clay and terra-cotta pots, Indapots are about 60% lighter.
     Expect less strain on your back when moving plants around.
